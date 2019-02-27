@@ -13,6 +13,7 @@ public class cardShuffle {
 
     public static void cardGenerator(){
         String newCard;
+        deckSorted = new ArrayList<>();
         for (int i=1; i<14; i++){
             for (int j = 0; j < 4; j++){
                 if (i == 1) {
